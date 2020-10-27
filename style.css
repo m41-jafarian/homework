@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: btraffic;
+    src: url(BTraffic.ttf);
+  }
+
+body{
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: btraffic;
+    background-image: url('bg.jpg'); background-size: cover;
+    /* border: solid rgb(21, 255, 0);   */
+}
+form{
+ background-color: transparent;
+ margin: 5px;
+ /* border: solid rgb(208, 255, 0);   */
+}
+.divtrnsparent{
+    background-color: transparent;
+    width: 70%;
+    flex-wrap: nowrap;
+    font-family: btraffic;
+    color: white;
+    /* border: solid rgb(255, 0, 221);   */
+}
+.divbeside{
+    display: inline-flex;
+    width: 30%;
+    font-size: 55%;
+    justify-content: space-around ;
+    /* align-items: center ; */
+    font-family: btraffic;
+    /* border: solid red;     */
+    justify-items: center;
+    padding-right: 10px;
+}
+
+.botum{
+    width: 30%;
+    height: 10%;
+    background-color: rgb(36, 156, 255);
+    color: white;
+    border-radius: 8%;
+    border: transparent;
+    font-family: btraffic;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.input{
+    width: 30%;
+    background-color:transparent;
+    border-bottom: white solid 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: white;
+    font-family: btraffic;
+    font-size: 65%;
+}
+
+.iconn{
+    color: white;
+    font-size: 50%;
+    margin: -5px;
+}
+
+  
