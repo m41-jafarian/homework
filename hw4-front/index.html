@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>پست ها</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="width:100%; direction: rtl;">
+<div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">پندون</a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">صفحه اصلی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">نوشته ها</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              بخشها
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">کاربران</a>
+              <a class="dropdown-item" href="#">تماس با ما</a>
+              <a class="dropdown-item" href="#">درباره</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+</div>
+<div class="container-fluid" style="width:100%;">
+  <div class="row" style="width:100%;" >
+      <div  class="col-4 bg-dark">
+      </div>
+      <div id="post" class="col-6 border border-warning overflow-auto shadow float-left mt-5 pt-5">
+      <div class="loader" id="loader"></div>
+      </div>
+      <div class="col-2 bg-dark position-relative mt-5">
+                        <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">صفحه اصلی</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">نوشته ها</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        بخشها
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+      </div>
+      
+  </div>
+</div>
+
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
